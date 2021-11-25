@@ -74,6 +74,9 @@ body {
 .navbar .nav-item {
   margin-left: 20px;
 }
+.navbar-toggler-icon {
+  background-color: #9031f0;
+}
 .navbar .nav-item .nav-link {
   color: var(--main-color);
   padding: 5px 0;
@@ -103,6 +106,7 @@ body {
   padding-bottom: 200px;
   position: relative;
   z-index: 1;
+  overflow-x: hidden;
 }
 h1.detail {
   color: #ffffff;
@@ -372,11 +376,9 @@ span.name {
   color: #ffffff;
   text-align: justify;
   font-size: 20px;
+  margin-top: 10px;
 }
+
 .about-me-button span {
   font-size: 100px;
-}
-.about-me-photo img {
-  padding-left: 100px;
-  padding-bottom: 120px;
 }
